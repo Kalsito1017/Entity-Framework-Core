@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{46C159B3-C028-4A60-AB99-80E3C215AA1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ\LINQ.csproj", "{46C159B3-C028-4A60-AB99-80E3C215AA1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. MusicHub Database", "01. MusicHub Database\01. MusicHub Database.csproj", "{6D4A8680-600E-4315-B671-8EE8C2CB1291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. MusicHub Database", "01. MusicHub Database\01. MusicHub Database.csproj", "{6D4A8680-600E-4315-B671-8EE8C2CB1291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Albums Info", "02. Albums Info\02. Albums Info.csproj", "{F4CA4998-368A-4FED-83A3-DC5C118661CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6D4A8680-600E-4315-B671-8EE8C2CB1291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4A8680-600E-4315-B671-8EE8C2CB1291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4A8680-600E-4315-B671-8EE8C2CB1291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CA4998-368A-4FED-83A3-DC5C118661CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CA4998-368A-4FED-83A3-DC5C118661CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CA4998-368A-4FED-83A3-DC5C118661CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CA4998-368A-4FED-83A3-DC5C118661CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
