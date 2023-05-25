@@ -12,7 +12,7 @@ namespace _02._Albums_Info
             var context = new MusicContext();
             context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
-            var result = ExportAlbumsInfo(context, 9);
+            var result = ExportAlbumsInfo(context, 2);
             Console.WriteLine(result);
         }
        
@@ -36,7 +36,7 @@ namespace _02._Albums_Info
                     .ToList(),
                    AlbumPrice = x.Price
                 })
-                .OrderByDescending( x=> x.AlbumPrice)
+                .OrderByDescending(x => x.AlbumPrice)
                 .ToList();
             var sb = new StringBuilder();
             foreach (var album in albumInfo)

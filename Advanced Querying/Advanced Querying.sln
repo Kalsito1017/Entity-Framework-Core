@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced Querying", "Advanced Querying\Advanced Querying.csproj", "{77008BD0-CBD4-48FC-9932-FBE38FD5C671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Age Restriction", "02. Age Restriction\02. Age Restriction.csproj", "{4A268E6F-40B2-46D1-A514-ABA2A70414A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77008BD0-CBD4-48FC-9932-FBE38FD5C671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77008BD0-CBD4-48FC-9932-FBE38FD5C671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77008BD0-CBD4-48FC-9932-FBE38FD5C671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77008BD0-CBD4-48FC-9932-FBE38FD5C671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A268E6F-40B2-46D1-A514-ABA2A70414A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A268E6F-40B2-46D1-A514-ABA2A70414A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A268E6F-40B2-46D1-A514-ABA2A70414A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A268E6F-40B2-46D1-A514-ABA2A70414A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {941961A2-1AA7-4131-92F7-E6127E92A9E0}
+	EndGlobalSection
+EndGlobal
