@@ -9,6 +9,9 @@ namespace ProductShop
         public ProductShopProfile() 
         {
             this.CreateMap<UserInputModel, User>();
+            this.CreateMap<ProductsInputModel, Product>();
+            this.CreateMap<CategoriesInputModel, Category>();
+            this.CreateMap<CategoryProductsInputModel, CategoryProduct>();
         }
     }
 }
